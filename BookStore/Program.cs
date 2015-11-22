@@ -10,7 +10,7 @@ namespace BookStore
     {
         static void Main(string[] args)
         {
-            Book myBook = new Book();
+            var myBook = new Book();
             myBook.Id = 1;
             myBook.Title = "Harry Potter";
             myBook.Author = "ff";
